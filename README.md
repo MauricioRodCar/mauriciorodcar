@@ -19,6 +19,8 @@ An AI assistant with an animated avatar that reacts to what the agent is doing. 
 - Electron + TypeScript · 381 unit tests · 12 architecture decision records · built with Claude Code orchestrating 8 specialized subagents
 - More on [my portfolio](https://www.mauriciorodriguez.dev/en)
 
+**[Roadmap for Claude Code](https://github.com/MauricioRodCar/claude-roadmap-mod)**: an installable Claude Code plugin that shows a task's steps, progress, inputs and outputs in a sidebar instead of narrating them in the chat. It registers one compact tool and adds a system-prompt guide, so each update costs few tokens. English/Spanish.
+
 **Local-first AI agent**: a sandboxed tool-calling agent on Ollama. The model only *requests* tool calls; the orchestrator validates and executes them.
 
 ---
